@@ -1,0 +1,21 @@
+# Never commit credentials or secrets
+.config/composio/env
+*.env
+.env
+.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+*.token
+*token*
+*secret*
+.netrc
+id_rsa*
+id_ed25519*
+id_ecdsa*
+id_dsa*
+.ssh/
+# Migration script backups / temp
+*.backup-*
+exe_new_out.json
