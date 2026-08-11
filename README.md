@@ -8,6 +8,12 @@ create_vm kms-proxy-explainer
 
 That single line provisions a brand-new cloud VM, waits for it to boot, and rsyncs a curated slice of your environment onto it — with backups, dependency installs, and validation. No more "fresh machine, blank prompt, where are all my aliases" energy.
 
+## Demo
+
+![create_vm demo](./assets/demo.gif)
+
+> ▶️ Prefer video? [Watch the MP4](./assets/demo.mp4)
+
 ---
 
 ## Why this exists
